@@ -1,0 +1,339 @@
+# ============================================
+# macOS 系统文件
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# macOS 属性文件
+*.xattr
+
+# ============================================
+# Linux 系统文件
+# ============================================
+*~
+.nfs*
+.fuse_hidden*
+.directory
+.Trash-*
+.trash-*
+.swp
+.swo
+.swn
+.*.swp
+.*.swo
+.*.swn
+tmp/
+*.pid
+*.seed
+*.pid.lock
+
+# KDE 目录文件
+.directory
+
+# ============================================
+# 编辑器与 IDE
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+.ionide/
+
+# JetBrains (IntelliJ, PyCharm, WebStorm 等)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.vim
+.vimrc.local
+*.un~
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# ============================================
+# 编译输出与依赖
+# ============================================
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+package-lock.json
+yarn.lock
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.pytest_cache/
+.ruff_cache/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# C/C++
+*.o
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+
+# ============================================
+# 日志与数据文件
+# ============================================
+*.log
+*.logs
+logs/
+log/
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sdb
+*.mdb
+*.accdb
+
+# ============================================
+# 环境与配置文件
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.envrc
+.direnv/
+.flake8
+.mypy.ini
+.pylintrc
+.eslintcache
+.prettiercache
+
+# SSH 密钥
+*.pem
+*.key
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+known_hosts
+authorized_keys
+
+# ============================================
+# 包管理器与工具
+# ============================================
+# Homebrew
+Brewfile.lock.json
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+.kube/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+*.box
+
+# ============================================
+# 测试与覆盖率
+# ============================================
+coverage/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+.cache
+.parcel-cache
+.nyc_output
+*.lcov
+
+# ============================================
+# 构建输出
+# ============================================
+/dist/
+/build/
+/out/
+/.next/
+/.nuxt/
+/.output/
+/.vuepress/dist
+/.docusaurus
+.docusaurus
+.storybook-out
+public/dist
+
+# ============================================
+# 其他通用忽略
+# ============================================
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+.svn/
+.cvs/
+.hg/
+.bzr/
+_pycharm_
+.project
+.settings/
+.classpath
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
