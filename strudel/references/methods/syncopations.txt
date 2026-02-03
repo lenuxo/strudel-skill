@@ -1,0 +1,7 @@
+note ->  [~ note]
+note ->  [note ~]
+
+note ->  [note@2 ~]
+note ->  [~ note@2]
+
+note ->  [~ ~ note]
