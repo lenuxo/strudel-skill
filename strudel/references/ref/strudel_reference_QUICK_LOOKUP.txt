@@ -287,7 +287,7 @@ ratio                               .freq().s("piano")
 readInputs                          Read next web audio block to input buffers
 reallocateChannelsIfNeeded          Handles dynamic reallocation of input/output channels buffer (channel 
 ref                                 exposes a custom value at query time. basically allows mutating state 
-register                            Registers a new pattern method. The method is added to the Pattern cla
+register                            Registers a new pattern method. For custom args, use pure(x) before pattern math.
 release                             note("c3 e3 g3 c4").release("<0 .1 .4 .6 1>/2")
 removeUndefineds                    Returns a new pattern, with haps containing undefined values removed f
 repeatCycles                        Repeats each cycle the given number of times.
@@ -333,7 +333,7 @@ silence                             Does absolutely nothing..
 sine                                A sine signal between 0 and 1.
 sine2                               A sine signal between -1 and 1 (like sine, but bipolar).
 slice                               Chops samples into the given number of slices, triggering those slices
-slider                              Displays a slider widget to allow the user manipulate a value
+slider                              Displays a slider widget to allow the user manipulate a value; use .mul/.add/.sub/.div, not JS * / + -
 slow                                Slow down a pattern over the given number of cycles. Like the "/" oper
 slowcat                             slowcat("e5", "b4", ["d5", "c5"])
 slowcatPrime                        No description

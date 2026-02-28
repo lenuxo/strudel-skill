@@ -376,7 +376,7 @@ exposes a custom value at query time. basically allows mutating state without ev
 
 
 register
-Registers a new pattern method. The method is added to the Pattern class + the standalone function is returned from register.
+Registers a new pattern method. The method is added to the Pattern class + the standalone function is returned from register. In custom funcs, lift plain args with pure(x) before pattern math (e.g. pure(x).mul(...)).
 
 
 name : string | Array.<string> - name of the function, or an array of names to be used as synonyms

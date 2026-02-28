@@ -206,7 +206,7 @@ s("breaks165").slice(8, "0 1 <2 2*2> 3 [4 0] 5 6 7".every(3, rev)).slow(0.75)
 samples('github:tidalcycles/dirt-samples')
 s("breaks125").fit().slice([0,.25,.5,.75], "0 1 1 <2 3>")
 slider
-Displays a slider widget to allow the user manipulate a value
+Displays a slider widget to allow the user manipulate a value. slider(...) yields a control pattern, so combine it with .mul/.add/.sub/.div (avoid JS operators like * / + -).
 
 
 value : number - Initial value
@@ -800,4 +800,3 @@ Plays a portion of a pattern, specified by the beginning and end of a time span.
 
 s("bd*2 hh*3 [sd bd]*2 perc").zoom(0.25, 0.75)
 // s("hh*3 [sd bd]*2") // equivalent
-
